@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Moment 1:09:30 | Routers & Validation"
+git commit -m "Lesson 01 -> done"
 git push -u origin main
 git status
