@@ -1,4 +1,4 @@
 git add -A
-git commit -m "Moment 1:02:00 | Connect Prisma at Nest app"
+git commit -m "Moment 1:09:30 | Routers & Validation"
 git push -u origin main
 git status
