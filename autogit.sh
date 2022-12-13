@@ -1,6 +1,4 @@
 git add -A
-git commit -m "project inserted"
-git branch -M main
-git remote add origin https://github.com/CarlosViniMSouza/ignitelab-nodejs-2022.git
+git commit -m "Moment 1:02:00 | Connect Prisma at Nest app"
 git push -u origin main
 git status
