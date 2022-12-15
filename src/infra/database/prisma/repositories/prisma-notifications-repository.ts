@@ -1,10 +1,7 @@
 import { Injectable } from '@nestjs/common';
-
 import { Notification } from '@application/entities/notification';
 import { NotificationsRepository } from '@application/repositories/notifications-repository';
-
 import { PrismaService } from '../prisma.service';
-import { raw } from '@prisma/client/runtime';
 import { PrismaNotificationMapper } from '../mappers/prisma-notification-mapper';
 
 @Injectable()
@@ -17,5 +14,13 @@ export class PrismaNotificationsRepository implements NotificationsRepository {
         await this.prisma.notification.create({
             data: raw,
         });
+    }
+
+    async findById(notificationId: string): Promise<Notification | null> {
+        throw new Error('Method not implemented.');
+    }
+
+    async save(notification: Notification): Promise<void> {
+        throw new Error('Method not implemented.');
     }
 }
