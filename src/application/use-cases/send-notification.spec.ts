@@ -1,5 +1,4 @@
 import { InMemoryNotificationsRepository } from '@test/repositories/in-memory-notifications-repository';
-
 import { SendNotification } from './send-notification';
 
 describe('Send notification', () => {
@@ -9,7 +8,7 @@ describe('Send notification', () => {
 
         const { notification } = await sendNotification.execute({
             category: 'social',
-            content: 'This is a notification',
+            content: 'THis is a notification',
             recipientId: 'example-recipient-id',
         });
 
