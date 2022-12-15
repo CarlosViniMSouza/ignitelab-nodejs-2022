@@ -14,9 +14,10 @@
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
-    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
+    "strictPropertyInitialization": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
@@ -31,7 +32,7 @@
       ],
       "@test/*": [
         "./test/*"
-      ],
+      ]
     }
   }
 }
